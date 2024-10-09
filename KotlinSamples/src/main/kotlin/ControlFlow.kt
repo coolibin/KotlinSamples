@@ -5,8 +5,8 @@ fun main(args: Array<String>) {
 }
 
 fun when_expression() {
-    val zzz: Any = 33
-    when(zzz) {
+    val anyVal: Any = 33
+    when(anyVal) {
         is String -> println("zzz is a string")
         is Int -> println("zzz is an int")
         else -> println("zzz is something else")
