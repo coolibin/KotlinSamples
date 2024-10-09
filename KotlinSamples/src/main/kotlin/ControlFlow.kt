@@ -7,9 +7,9 @@ fun main(args: Array<String>) {
 fun when_expression() {
     val anyVal: Any = 33
     when(anyVal) {
-        is String -> println("zzz is a string")
-        is Int -> println("zzz is an int")
-        else -> println("zzz is something else")
+        is String -> println("anyVal is a string")
+        is Int -> println("anyVal is an int")
+        else -> println("anyVal is something else")
     }
 
     val x = 10
